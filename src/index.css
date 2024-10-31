@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #181819;
+    border-radius: 10px;
+    transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19) 1s;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #412b65;
+    border-radius: 10px;
+}
